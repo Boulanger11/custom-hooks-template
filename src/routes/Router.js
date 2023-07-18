@@ -8,7 +8,7 @@ const Router = () => {
         <BrowserRouter>
         <Header/>
             <Routes>
-                <Route index element={<UserNamesPage/>} />
+                <Route path="/" element={<UserNamesPage/>} />
                 <Route path="/comments" element={<CommentsPage/>} />
             </Routes>
         </BrowserRouter>
